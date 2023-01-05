@@ -9,7 +9,7 @@ document.getElementById('right-section').innerHTML = '<button class="buttons" on
         window.location.href = 'GALLERY.html';
     }
 
-document.getElementById('image-title').innerHTML = '<p class="image-link-names"> Kayla Vannessa Vallejos </p>'
+document.getElementById('image-title').innerHTML = '<p class="image-link-names"> Vanessa Kayla Vallejos </p>'
 document.getElementById('leaders-div').innerHTML = '<h1 class="header-leaders"> Leaders </h1>'
 
 const list1 = 'Main Manager';
