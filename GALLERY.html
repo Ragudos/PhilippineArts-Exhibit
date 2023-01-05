@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title> GALLERY | PHOTOGRAPHY </title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/Header.css">
+	<link rel="stylesheet" href="styles/images.css">
+	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="styles/media.css">
+
+<style>
+
+	body {
+		background-image: url(images/image-background.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+  		background-size: cover;
+		z-index: 100;
+	}
+
+</style>
+
+<script src="javascript/GALLERY.js" defer></script>
+
+</head>
+
+<body>
+	<div id="root">
+	<header class="header">
+		<div class="left-section">
+			<div class="image-logo-logo">
+				<img src="images/logo-logo.png" type="image/png" alt="logo" class="logo-brown-house">
+			</div>
+			<div class="dropdown">
+				<select onchange="window.location.href=this.value" name="GALLERY" class="dropdown">
+					<option value="GALLERY.html">PHOTOGRAPHY</option>
+					<option value="DIGITAL ARTWORK.html">DIGITAL ARTWORK</option>
+					<option value="TRADITIONAL ARTWORK.html">TRADITIONAL ARTWORK</option>
+					<option value="TRAILER.html">TRAILER</option>
+				</select>
+			</div>
+		</div>
+		<div class="middle-section">
+			<button type="button" class="search-button tooltip-container">
+				<img src="images/search.svg">
+				<div class="tooltip">
+					Search
+				</div>
+			</button>		
+			<input id="searchbar" onkeyup="search_image()" class="search-bar" type="text" placeholder="Search">
+		</div>
+		<div class="right-section">
+			<div class="Homepage-button">
+				<a href="index.html" class="GALLERY-logo-a"><img class="GALLERY-logo" src="images/brown-house.png" alt="logo.png" type="image/png"></a>
+			</div>		
+		</div>
+	</header>
+<div>
+	&nbsp;
+		<div>
+		&nbsp;
+	</div>
+</div>
+<main class="main-1">
+	<div class="title-text">
+		<h1 class="header-title-text"> PHOTOGRAPHY </h1>
+	</div>
+	<section class="image-grid" id="image-grid">
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description.html">
+						<img class="thumbnail" src="images/photography/blank (1)_Salcedo.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description.html"> Amusement </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/leyiiajoyy">
+								Taken by Ms. Lea Joy Salcedo </a>
+							</p>
+							<p class="date-finished"> December &#183 13 &#183 2022</p>						
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-2.html">
+						<img class="thumbnail" src="images/photography/PIKO_Vasquez.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-2.html"> Piko </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/Danielanicole.nicolevasquez518">
+								Taken by Ms. Daniela Vasquez </a>
+							</p>
+							<p class="date-finished"> December &#183 13 &#183 2022</p>						
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-3.html">
+						<img class="thumbnail" src="images/photography/ILOG_Salcedo.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="#"> Langoy</a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/leyiiajoyy">
+								Taken by Ms. Lea Joy Salcedo </a>
+							</p>
+							<p class="date-finished"> December &#183 12 &#183 2022</p>					
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-4.html">
+						<img class="thumbnail" src="images/photography/CAROUSEL_Vasquez.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-4.html"> Carousel </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/Danielanicole.nicolevasquez518">
+								Taken by Ms. Daniela Vasquez </a>
+							</p>
+							<p class="date-finished"> December &#183 13 &#183 2022</p>						
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-5.html">
+						<img class="thumbnail" src="images/photography/KALYE_Vasquez.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-5.html"> Kalye </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/Danielanicole.nicolevasquez518">
+								Taken by Ms. Daniela Vasquez </a>
+							</p>
+							<p class="date-finished"> December &#183 13 &#183 2022</p>						
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-7.html">
+						<img class="thumbnail" src="images/photography/blank (6)_Salcedo.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-7.html"> Luscious, It's Your Treat! </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/leyiiajoyy">
+								Taken by Ms. Lea Joy Salcedo </a>
+							</p>
+							<p class="date-finished"> December &#183 13 &#183 2022</p>						
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-8.html">
+						<img class="thumbnail" src="images/photography/NGITI_Salcedo.jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-8.html"> Ngiti </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/leyiiajoyy">
+								Taken by Ms. Lea Joy Salcedo </a>
+							</p>
+							<p class="date-finished"> December &#183 13 &#183 2022</p>			
+					</div>
+				</div>
+			</div>
+			<div class="image-card-3" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-9.html">
+						<img class="thumbnail-2" src="images/photography/KALARO_Ygar,M..jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-9.html"> Kalaro </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/michaelandrei.ygar">
+								Taken by Mr, Michael Andrei Ygar </a>
+							</p>
+							<p class="date-finished"> December &#183 10 &#183 2022</p>						
+					</div>
+				</div>
+			</div>	
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-8.html">
+						<img class="thumbnail" src="images/photography/DUYAN_Ygar,M..jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-8.html"> Duyan</a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/michaelandrei.ygar">
+								Taken by Mr. Michael Andrei Ygar </a>
+							</p>
+							<p class="date-finished"> December &#183 10 &#183 2022</p>						
+					</div>
+				</div>
+			</div>
+			<div class="image-card" id="image-card-1">
+				<div class="thumbnail-container">
+					<a href="description-9.html">
+						<img class="thumbnail" src="images/photography/PLAYGROUND_Ygar,M..jpg">
+					</a>
+				</div>
+					<div class="image-info-grid">
+						<div class="image-info" id="image-info">
+							<p class="image-title">
+								<a class="image-link" href="description-9.html"> Playground </a>
+							</p>
+							<p class="made-by"><a class="facebook-link" href="https://www.facebook.com/michaelandrei.ygar">
+								Taken by Mr. Michael Andrei Ygar </a>
+							</p>
+							<p class="date-finished"> December &#183 10 &#183 2022</p>					
+					</div>
+				</div>
+			</div>
+	</section>
+</main>
+<footer class="footer-end">
+	<div class="middle-section-footer">
+		<p class="footer-paragraph"> &nbsp; "We accept responsibility for our roles in ensuring the integrity of this work in which everyone participated in" &nbsp; </p>
+	</div>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.footer-end{
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(147, 72, 26, 0.5),rgba(147, 72, 26,0.5));
+}
+
+.middle-section-footer{
+    padding: 5% 7%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.footer-paragraph{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+   color: #511d00;
+   font-weight: 200;
+}
+
+@media (max-width: 769px) {
+    .footer-paragraph {
+        font-size: 15px;
+    }
+}
