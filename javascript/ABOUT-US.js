@@ -10,7 +10,7 @@ document.getElementById('right-section').innerHTML = '<button class="buttons" on
     }
 
 document.getElementById('leaders-div').innerHTML = '<h1 class="header-leaders"> Leaders </h1>'
-document.getElementById('image-title').innerHTML = '<a href="Kayla.html" class="image-link"> Vallejos, Kayla Vannessa  </a>'
+document.getElementById('image-title').innerHTML = '<a href="Kayla.html" class="image-link"> Vallejos, Vanessa Kayla  </a>'
 document.getElementById('image-title1').innerHTML = '<a href="Johan.html" class="image-link"> Padit, Johan Howard </a>'
 
 document.getElementById('header-members').innerHTML = '<h1 class="header-members"> Members </h2>'
