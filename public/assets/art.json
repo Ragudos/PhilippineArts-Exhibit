@@ -1,0 +1,291 @@
+[
+    {
+        "title": "Anamnesis",
+        "description": "Memories: A horrifying thing yet this can also be a life-saver. The moments when you'd feel at your lowest point is when your past comes to life. You are reminded of the good things, and this makes you hold on tight even onto the thinnest and weakest thread as much as you can, for as long as you have to. You hold on. Until the time that your thread becomes strong and mighty once again. Make good memories, and with this, you will always have something to look at whenever you'd feel down. Look forward in creating something better and more memorable for the future you to thank you for. This artwork is called Anamnesis which basically means 'the remembering of things from a supposed previous existence.' A protrait of a woman was drawn by the artist and inside her head are all the things that made her childhood something worth to remember. This art is all about reminiscing the past memories that made her life joyous and carefree.",
+        "translations": {
+            "ph": {
+                "title": "Mga Alaala",
+                "description": "Mga alaala: Isang nakakapangilabot na bagay ngunit nakakapagligtas ito ng buhay."
+            }
+        },
+        "category": "traditional",
+        "artist": "Pehipol",
+        "techniques": ["Pencil Drawing"],
+        "materials": ["Vellum board", "Pencil", "Colored Pencils", "Eraser"]
+    },
+    {
+        "title": "Honorary",
+        "description": "The most prominent in Filipino culture is the value of respect. Honorary is a piece of art that depicts young people showing respect and honor to elderly people with the 'Pagmamano' act. It specifically refers to Filipinos who have carried on this practice since they were children. Old people are usually respected because they are known to have more experiences as they are much older, and because of this, they have more insight in life that can help a young person prosper if he were to have these insights/pieces of knowledge.",
+        "translations": {
+            "ph": {
+                "title": "Respeto",
+                "description": "Ang pinakaprominenteng parte ng kultura ng mga Pilipino ay ang respeto. Ang sining na ito, na pinamagatang 'Respeto' ay naglalarawan ng isang binatilyong nagbibigay ng respeto at paggalang sa nakatatanda. Ang tawag rito ay pagmamano at ito ay isinasagawa ng mga Pilipino simula sa pagkabata. Kadalasang nirerespeto ang mga matatanda dahil kilala silang mas maraming karunungan at karanasan sa buhay. Dahil dito, mas magkakaroon ang mga kabataan ng kaalaman sa buhay upang umasenso."
+            }
+        },
+        "category": "traditional",
+        "artist": "Pua",
+        "techniques": ["Pencil Sketch", "Handstrokes", "Color Shadowing"],
+        "materials": ["Illustration Board", "Oil Pastels", "Pencil", "Cottons"]
+    },
+    {
+        "title": "Kalinga",
+        "description": "In the Filipino language, Kalinga means protecting and caring for someone. A Filipino mother and a child are both represented in this work of art as they display affection and protectiveness toward each other. Seeing this artwork might remind you of the times when they would wait patiently for you to come home and took care of you through physical touch and verbal and emotional affirmation.",
+        "translations": {
+            "ph": {
+                "title": "Kalinga",
+                "description": ""
+            }
+        },
+        "category": "traditional",
+        "artist": "Ramirez",
+        "materials": ["Wire", "Paper", "Glue", "Foil", "Wet Wipes", "Tape"]
+    },
+    {
+        "title": "Kalsada",
+        "description": "When we were younger, the only way we could release our urge to beat people and socialize was by going outside. We met new friends and had fun, didn't we? And those times were more tranquil and it gave you a peace of mind since technology like smartphones and social media didn't exist then. The artwork shows some of the games that one would  usually play during their childhood to pass their time like tumbang preso, taya-tayaan (a game of tag), luksong baka, and many more.",
+        "translations": {
+            "ph": {
+                "title": "Kalsada",
+                "description": ""
+            }
+        },
+        "category": "traditional",
+        "artist": "Ordinario",
+        "materials": ["Illustration Board", "Pencil", "Oil Pastels", "Cotton Buds", "Ruler"],
+        "techniques": ["Sketch", "Heavy Pressure", "Back & Forth Stroke"]
+    },
+    {
+        "title": "Unforgettable",
+        "description": "You might be a 90's kid if you resonate with this art style. They used to utilize this style in television and  cartoons, right? Oh, it was definitely the best time to be born in if you wanted to fully experience the outdoor and carefree life of being a young Filipino child who would always go home dirty and smelling like Sinigang or the sun. Since then, graffiti artworks could be seen all over the Philippines, which were particularly scattered around the walls of different kinds of infrastructure. For some, it was considered vandalism, and the government concurred with this issue, so they usually repaint the walls. However, painting over visible graffiti artwork on walls didn't change the fact that it was there in the first place. This was similar to how vintage toys were made; there were constant innovations in creating new concepts as the years passed. From generation to generation, there were new trends when it comes to what stuff a kid should be playing. However, for some reason, classic toys such as sipa, yo-yo, plastic balloons, and so on became memorable to Filipinos and became a significant part of Filipino culture.",
+        "translations": {
+            "ph": {
+                "title": "Ating Nakaraang Hindi Makakalimutan",
+                "description": ""
+            }
+        },
+        "category": "traditional",
+        "artist": "Ramos",
+        "materials": ["Illustration Board", "Colored Pencils", "Pencil", "Acrylic Paint"],
+        "techniques": ["Sketch", "Heavy Pressure", "Back & Forth Stroke"]
+    },
+    {
+        "title": "Merienda",
+        "description": "When we talk about food during childhood, how could we not remember the merienda that our mothers used to prepare for us in the afternoon? Or perhaps the food we buy from the street vendors that pass our homes? Merienda has been a big part of our life growing up since most of the time we sit, eat, and talk to not just our family, but our friends too while eating indoors or outdoors.",
+        "translations": {
+            "ph": {
+                "title": "Merienda",
+                "description": ""
+            }
+        },
+        "category": "traditional",
+        "artist": "Villaflor",
+        "materials": ["Illustration Board", "Colored Pencils", "Pencil", "Drawing Pen"],
+        "techniques": ["Sketch", "Heavy Pressure", "Back & Forth Stroke", "Scrumbling"]
+    },
+    {
+        "title": "Reminiscence",
+        "description": "Reminiscence allows you to remember the good ol' days, and this artwork does just that. The moments way back during your childhood where you could still do everything freely,  play outside as if there was no problem, play the famous childhood games “sungka”, “jolens”, “luksong lubid”, and also the popular toy of all time, the “trumpo” that was used mostly by boys. Those were the things that remain only as a fragment of your past, the happiest parts of your life that will linger within you and everyone else --- Forever.",
+        "translations": {
+            "ph": {
+                "title": "Pagbabalik Tanaw",
+                "description": ""
+            }
+        },
+        "artist": "Vallejos",
+        "category": "digital",
+        "materials": ["IbisPaint X"],
+        "techniques": ["Digital Painting"]
+    },
+    {
+        "title": "Nostalgia",
+        "description": "An old person is reminiscing about a time in the past. Wherein he/she felt joy for the first time in his/her life and he knows that time can't ever be turned back.",
+        "translations": {
+            "ph": {
+                "title": "Ang Nakaraang Nais Mabalikan",
+                "description": ""
+            }
+        },
+        "artist": "Orcajada",
+        "category": "digital",
+        "materials": ["IbisPaint X"],
+        "techniques": ["Digital Art", "Shading"]
+    },
+    {
+        "title": "Sablay",
+        "description": "Made in pixel art style, 'Sablay' is an attempt to relive the joys and tribulations of playing the classic pinoy game 'Tumbang Preso'. The old pinoy youth revels in playing games carefree yet rowdily, competitive yet casual, and grueling yet fun.",
+        "translations": {
+            "ph": {
+                "title": "Sablay",
+                "description": ""
+            }
+        },
+        "artist": "Padit",
+        "category": "digital",
+        "materials": ["Adobe Photoshop"],
+        "techniques": ["Pixel Art"]
+    },
+    {
+        "title": "Manananggal",
+        "description": "The silence comes along as the sun hides under the Earth, leaving nothing but darkness. In the midst of chirping insects and hooting owls, stood a decrepit and scary-looking woman hungry for babies. With each crunch, a part  of her hip is separated from her torso. Ever-so-slowly, she pulled them apart and her insides quickly got pulled by gravity, leaving them hanging like clothes being dried out in the sun. She flew off into the dark moonlit sky with her bat-like wings spread open, and laughed eerily as to hint the nearby families that it's time for her to hunt. For babies! Most of the filipino children fear this mythological creature. It's a vampire-like lady that detaches their lower half in order to fly and hunt babies and children which is why it is feared among children.",
+        "translations": {
+            "ph": {
+                "title": "Manananggal",
+                "description": ""
+            }
+        },
+        "artist": "Uson",
+        "category": "digital",
+        "materials": ["IbisPaintX"],
+        "techniques": ["Digital Art"]
+    },
+    {
+        "title": "Kapre",
+        "description": "Made in a creepy charcoal texture artstyle, A childhood fear is expressed through this art. An evil spirit from the filipino folklore called a “Tikbalang” is feared among children whenever they roam around trees.",
+        "translations": {
+            "ph": {
+                "title": "Aswang",
+                "description": ""
+            }
+        },
+        "artist": "Uson",
+        "category": "digital",
+        "materials": ["IbisPaint X"],
+        "techniques": ["Digital Art", "Charcoal"]
+    },
+    {
+        "title": "Slide",
+        "description": " Do you remember the time when you visited a park back when innocence still hadn't been taken away? If you do, then you must feel a sense of familiarity with this image. This photo was taken inside Circle of Fun in Quezon Memorial Circle. If you live near Quezon City, you have probably toured this main national park of Quezon City when you were still young. Besides its 66 meters tall mausoleum, you can enjoy slides, seesaws, tube slides and swings inside Circle of Fun for free while having a picnic. Is nostalgia overwhelming you at the moment? Think back to the days when you could afford to rent a bike for an hour to go around? It even has that mountain-like steep road where you need to use your biking skills to get over. On top of that, this picture reminds us how fortunate we were as children to had been there. Despite how decrepit the place looks now since many years have passed, children of this generation are still experiencing such innocent, happy, and wonderful bliss in their own worlds.",
+        "translations": {
+            "ph": {
+                "title": "Palaruan",
+                "description": ""
+            }
+        },
+        "artist": "Salcedo",
+        "category": "photography",
+        "materials": ["Camera Phone", "VSCO App", "Afterlight App"],
+        "techniques": ["Assymetrical", "Simplification", "Rule of Thirds"]
+    },
+    {
+        "title": "Piko",
+        "description": " Piko is one of the well-known childhood games played by Filipinos. A pattern of boxes is drawn on a concrete floor using chalk or a soft stone to play this game. The pamato used by players is a stone that they toss into a box before skipping forward and backward. They will keep doing this until they finish the level or get the boxes as their own/bahay.",
+        "translations": {
+            "ph": {
+                "title": "Piko",
+                "description": ""
+            }
+        },
+        "artist": "Vasquez",
+        "category": "photography",
+        "materials": ["Iphone 8+", "Snapseed App"]
+    },
+    {
+        "title": "Ilog",
+        "description": "Before and during the time when the photographer took this photo, these were their thoughts: “We were waiting for the rain to stop inside the UP Diliman campus and heard three clever little boys playing at the back of the waiting shed. Having been in this situation myself as a child, it did not matter if the river had a speck of impure dirt on it while we were swimming and playing. The sight of them brightened my day, and I thought it would be nice to ask them for a picture as I suddenly recalled every little moment we had on a river with my cousins back when we were still young.”",
+        "translations": {
+            "ph": {
+                "title": "Ilog",
+                "description": ""
+            }
+        },
+        "artist": "Salcedo",
+        "category": "photography",
+        "materials": ["Camera Phone", "VSCO App"],
+        "techniques": ["Depth of Field", "Framing"]
+    },
+    {
+        "title": "Carousel",
+        "description": "When we were little, we would ask our parents to let us ride the carousel or merry-go-round that we would see in parks or malls. Due to its flashing lights, catchy melodies, and the horses that circle around, this ride is noticeable for children.",
+        "translations": {
+            "ph": {
+                "title": "Carousel",
+                "description": ""
+            }
+        },
+        "artist": "Vasquez",
+        "category": "photography",
+        "materials": ["Iphone 11", "Lightroom App"]
+    },
+    {
+        "title": "Kalye",
+        "description": "Do you recall your earlier days of playing in the “kalye” or streets? running with your friends until dusk while laughing aloud. These “kalye” serve as both a constant reminder of how carefree our youth was and a repository for our most priceless childhood memories.",
+        "translations": {
+            "ph": {
+                "title": "Kalye",
+                "description": ""
+            }
+        },
+        "artist": "Vasquez",
+        "category": "photography",
+        "materials": ["Iphone 8+", "Lightroom App"]
+    },
+    {
+        "title": "Candy",
+        "description": "This shelf of toothsome candies in Divisoria we used to eat as a child reminds us of the deciduous or baby teeth we lost due to our parents' insistence that we always eat sweets. Some popular candies on this shelf are Stick-O, Frutos, Pintoora, Pochi, Flat Tops, Champi, and Haw Haw Milk Candy. But honestly, in the colorful array before us, these childhood snacks and candies were what attracted our hungry little eyes, which resulted to our adorable little smiles.",
+        "translations": {
+            "ph": {
+                "title": "Kendi",
+                "description": ""
+            }
+        },
+        "artist": "Salcedo",
+        "category": "photography",
+        "materials": ["Camera Phone", "VSCO App", "Afterlight App"]
+    },
+    {
+        "title": "Ngiti",
+        "description": "“I got used to the fact that there are always children playing in front of our house but the moment I took this picture, two adorable little neighbor girls were just watching me key unlock the door as I got home from school on November 23, 2022. They caught my eye for their matching purple headbands, and cute dresses, and we chatted for a bit, asked their names, how old they were, and what color they liked. I was lifted up by the chit-chat we had, recalling how I used to think the world was just about playing, colors, laughter, offering undivided attention, and learning something new from every new experience.”",
+        "translations": {
+            "ph": {
+                "title": "Ngiti",
+                "description": ""
+            }
+        },
+        "artist": "Salcedo",
+        "category": "photography",
+        "materials": ["Camera Phone", "VSCO App"],
+        "techniques": ["Simplification", "Repitition", "Pattern"]
+    },
+    {
+        "title": "Kalaro",
+        "description": "The nicest part of my youth was having a 'kalaro,' or playmate. They used to make me laugh. I remember that. They were the ones with whom I used to hang out until dusk without being frightened about our mother's calls. The fellas on whom I created my amazing childhood experiences.",
+        "translations": {
+            "ph": {
+                "title": "Kalaro",
+                "description": ""
+            }
+        },
+        "artist": "Jeremy",
+        "category": "photography",
+        "materials": ["Iphone 11", "Lightroom App", "Snapseed App"],
+        "techniques": ["Simplification"]
+    },
+    {
+        "title": "Duyan",
+        "description": "A 'duyan,' or swing, served as my favorite spot when I was younger. My parents and I spend the most of our time here. I remember giggling as they swung me up high  as the wind brushes my skin. A sentimental moment to remember. That's why a 'duyan' has always been my favorite spot to visit when I want to reminisce about my youth.",
+        "translations": {
+            "ph": {
+                "title": "Duyan",
+                "description": ""
+            }
+        },
+        "artist": "Michael",
+        "category": "photography",
+        "materials": ["Iphone 11", "Lightroom App", "Snapseed App"],
+        "techniques": ["Contrast", "Horizontal", "Rule of Thirds"]
+    },
+    {
+        "title": "Playground",
+        "description": "As children, going to a playground makes our hearts race. It's a wonderful place where we can have fun without worrying knowing our parents are watching over us from afar. This is a place where we once had a short-term buddy who we might never see again and a place where we wrote the unforgettable plays of our youth.",
+        "translations": {
+            "ph": {
+                "title": "Palaruan",
+                "description": ""
+            }
+        },
+        "artist": "Michael",
+        "category": "photography",
+        "materials": ["Iphone 11", "Lightroom App", "Snapseed App"],
+        "techniques": ["Contrast", "Horizontal", "Rule of Thirds"]
+    }
+]
