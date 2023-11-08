@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
+    "prod": "npm run build:server && npm run build",
     "build": "remix build",
     "build:server": "node esbuild.config.mjs",
     "dev": "remix dev --manual --command \"pnpm run dev:server\"",
