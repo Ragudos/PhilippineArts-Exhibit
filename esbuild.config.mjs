@@ -9,13 +9,11 @@ try {
         platform: "node",
         entryPoints: ["server.ts"],
         packages: "external",
-        outdir: "./build",
+        outdir: "./netlify/functions",
         outExtension: {
             ".js": ".cjs"
         }
     });
-
-    fs.writeFileSync("./build/meta.server-entry.json", JSON.stringify(ctx.metafile));
 } catch (err) {
     console.error(err);
     process.exit(1);
