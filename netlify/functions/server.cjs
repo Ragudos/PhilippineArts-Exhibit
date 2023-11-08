@@ -42245,7 +42245,7 @@ var import_express2 = __toESM(require_dist3());
 // server/get-server.ts
 var import_node_path = __toESM(require("node:path"));
 function getServer() {
-  const build_dir = import_node_path.default.join(process.cwd(), "build");
+  const build_dir = import_node_path.default.join(process.cwd(), "..", "..", "build");
   for (const key in require.cache) {
     if (key.startsWith(build_dir)) {
       delete require.cache[key];
@@ -42266,7 +42266,7 @@ var import_node = __toESM(require_dist2());
 var isInProduction = process.env.NODE_ENV == "production";
 function createDevRequestHandler(initialBuild) {
   let build = initialBuild;
-  const build_dir = import_node_path2.default.join(process.cwd(), "build");
+  const build_dir = import_node_path2.default.join(process.cwd(), "..", "..", "build");
   const build_version_dir = import_node_path2.default.join(build_dir, "version.txt");
   function handleServerUpdate() {
     build = getServer();

@@ -1,5 +1,3 @@
-import path from "node:path";
-
 import { app } from "./init";
 import { getServer } from "./get-server";
 import { broadcastDevReady } from "@remix-run/node";

@@ -11,7 +11,7 @@ const isInProduction = process.env.NODE_ENV == "production";
 function createDevRequestHandler(initialBuild: ServerBuild) {
     let build = initialBuild;
 
-    const build_dir = path.join(process.cwd(), "build");
+    const build_dir = path.join(process.cwd(), "..", "..", "build");
     const build_version_dir = path.join(build_dir, "version.txt");
 
     function handleServerUpdate() {
