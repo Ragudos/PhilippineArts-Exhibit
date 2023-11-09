@@ -7,7 +7,7 @@
     "build": "remix build",
     "build:server": "node esbuild.config.mjs",
     "dev": "remix dev --manual --command \"pnpm run dev:server\"",
-    "dev:server": "node --inspect ./netlify/functions/server.cjs",
+    "dev:server": "node --inspect ./build/server.cjs",
     "start": "remix-serve ./build/index.js",
     "format": "prettier -w \"**/*.{ts,tsx,js,jsx,html,css}\"",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint --max-warnings 0 .",

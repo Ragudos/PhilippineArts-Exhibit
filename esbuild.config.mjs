@@ -8,7 +8,7 @@ try {
         format: "cjs",
         platform: "node",
         entryPoints: ["server.ts"],
-        outdir: "./netlify/functions",
+        outdir: "./build",
         outExtension: {
             ".js": ".cjs"
         }
