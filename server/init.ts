@@ -1,6 +1,5 @@
 import express from "express";
 import compression from "compression";
-import path from "node:path";
 
 import { handleRedirects } from "./redirect";
 import { generateNonce } from "./generate-nonce";
@@ -13,7 +12,7 @@ app.disable("x-powered-by");
 
 // Builds can be cached for a long time since remix fingerprints its assets.
 app.use(
-    path.join(process.cwd(), "..", "..", "/build"),
+    "/build",
     express.static("public/build", {
         immutable: true,
         maxAge: "1y",
