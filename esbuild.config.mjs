@@ -9,7 +9,6 @@ try {
         platform: "node",
         entryPoints: ["server.ts"],
         outdir: "./netlify/functions",
-        packages: "external",
         outExtension: {
             ".js": ".cjs"
         }
