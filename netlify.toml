@@ -1,5 +1,7 @@
 [functions]
     included_files = ["build/**"]
+    external_node_modules = ["express","morgan","helmet","chokidar"]
+    node_bundler = "esbuild"
 [[redirects]]
     force = true
     from = "/*"
