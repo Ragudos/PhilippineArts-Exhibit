@@ -1,6 +1,6 @@
 [functions]
-    included_files = ["build/index.js","build/version.txt"]
-    external_node_modules = ["express","morgan","helmet","chokidar","@remix-run/node","compression","@remix-run/express"]
+    included_files = ["build/index.js", "build/version.txt"]
+    external_node_modules = ["express", "morgan", "helmet", "chokidar", "@remix-run/node", "compression", "@remix-run/express"]
     node_bundler = "esbuild"
 [[redirects]]
     force = true
