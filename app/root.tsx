@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 
-import type { LinksFunction } from "@remix-run/node";
 import { cssBundleHref } from "@remix-run/css-bundle";
+import type { LinksFunction } from "@remix-run/node";
 import {
     Links,
     LiveReload,
@@ -13,16 +13,15 @@ import {
 } from "@remix-run/react";
 
 import globalStyles from "./styles/globals.css";
-import { useNonce } from "./hooks/useNonce";
 
 import { ErrorBoundary } from "./error";
 import { loader } from "./loader";
 
 import { Header } from "./components/header";
-import { cn, escapeHTML } from "./lib/utils";
 import { ContextProvider } from "./context-provider";
-import { ThemeScript } from "./scripts/theme";
+import { cn, escapeHTML } from "./lib/utils";
 import { SettingsScript } from "./scripts/settings";
+import { ThemeScript } from "./scripts/theme";
 
 export const links: LinksFunction = () => [
     ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
@@ -30,7 +29,6 @@ export const links: LinksFunction = () => [
 ];
 
 export default function App() {
-    const nonce = useNonce();
     const { ENV, themes, userSettings } = useLoaderData<typeof loader>();
 
     return (
@@ -70,8 +68,8 @@ export default function App() {
                 <link rel="manifest" href="/metadata/site.webmanifest" />
                 <Meta />
                 <Links />
-                <ThemeScript themes={themes} nonce={nonce} />
-                <SettingsScript userSettings={userSettings} nonce={nonce} />
+                <ThemeScript themes={themes} />
+                <SettingsScript userSettings={userSettings} />
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -82,7 +80,6 @@ export default function App() {
                         window.settings = ${JSON.stringify(userSettings)}
                         `,
                     }}
-                    nonce={nonce}
                     defer
                 ></script>
             </head>
@@ -92,9 +89,9 @@ export default function App() {
                     <main className="container">
                         <Outlet />
                     </main>
-                    <ScrollRestoration nonce={nonce} />
-                    <Scripts nonce={nonce} />
-                    <LiveReload nonce={nonce} />
+                    <ScrollRestoration />
+                    <Scripts />
+                    <LiveReload />
                 </ContextProvider>
             </body>
         </html>

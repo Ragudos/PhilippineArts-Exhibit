@@ -6,12 +6,11 @@
 
 import { PassThrough } from "node:stream";
 
-import type { AppLoadContext, EntryContext } from "@remix-run/node";
 import { createReadableStreamFromReadable } from "@remix-run/node";
 import { RemixServer } from "@remix-run/react";
+import { EntryContext } from "@remix-run/react/dist/entry";
 import isbot from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
-import { NonceCtx } from "./hooks/useNonce";
 
 const ABORT_DELAY = 5_000;
 
@@ -20,7 +19,6 @@ export default async function handleRequest(
     responseStatusCode: number,
     responseHeaders: Headers,
     remixContext: EntryContext,
-    loadContext: AppLoadContext,
 ) {
     const callbackName = isbot(request.headers.get("user-agent"))
         ? "onAllReady"
@@ -28,19 +26,11 @@ export default async function handleRequest(
 
     return new Promise((resolve, reject) => {
         const { pipe, abort } = renderToPipeableStream(
-            <NonceCtx.Provider
-                value={
-                    loadContext?.cspNonce
-                        ? (loadContext.cspNonce as string)
-                        : ""
-                }
-            >
-                <RemixServer
-                    abortDelay={ABORT_DELAY}
-                    context={remixContext}
-                    url={request.url}
-                />
-            </NonceCtx.Provider>,
+            <RemixServer
+                abortDelay={ABORT_DELAY}
+                context={remixContext}
+                url={request.url}
+            />,
             {
                 [callbackName]() {
                     const body = new PassThrough();

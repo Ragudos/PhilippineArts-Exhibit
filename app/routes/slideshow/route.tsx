@@ -1,14 +1,14 @@
-import type { MetaFunction } from "@remix-run/node";
 import React from "react";
 
 import { siteConfig } from "@/config/site";
 import { generateMetadata } from "@/lib/metadata";
 
+// @ts-ignore
 import themeIcons from "@/assets/theme-icons.svg";
 
-import { loader } from "../_loaders/root";
-import { useLoaderData, useSearchParams } from "@remix-run/react";
 import { Button } from "@/components/ui/button";
+import { MetaFunction, useLoaderData, useSearchParams } from "@remix-run/react";
+import { loader } from "../_loaders/root";
 import { ArtworkDetails } from "./_components/artwork-details";
 
 import {
