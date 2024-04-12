@@ -5,6 +5,10 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
 var __copyProps = (to, from, except, desc) => {
   if (from && typeof from === "object" || typeof from === "function") {
     for (let key of __getOwnPropNames(from))
@@ -21,6 +25,14 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
   mod
 ));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// server.ts
+var server_exports = {};
+__export(server_exports, {
+  handler: () => handler
+});
+module.exports = __toCommonJS(server_exports);
 
 // server/init.ts
 var import_express = __toESM(require("express"));
@@ -160,59 +172,12 @@ var loadAssets = isInProduction ? (0, import_express2.createRequestHandler)({
   getLoadContext
 }) : createDevRequestHandler(getServer());
 
-// server/start-server.ts
-var import_node2 = require("@remix-run/node");
-var import_node_os = __toESM(require("node:os"));
-function getIpAddress() {
-  if (process.env.HOST) {
-    return process.env.HOST;
-  }
-  const network = import_node_os.default.networkInterfaces();
-  const allIps = Object.values(network).flat();
-  const ip = allIps.find((curr) => {
-    let stringified;
-    let internal;
-    if (curr != null && curr != void 0) {
-      stringified = String(curr.family);
-    }
-    if (stringified?.includes("4") && curr != null && curr != void 0 && curr.internal) {
-      internal = curr.internal;
-    }
-    return stringified && internal;
-  });
-  return String(ip?.address);
-}
-function startServer(port) {
-  function onListen() {
-    const build = getServer();
-    const address = getIpAddress();
-    if (!address) {
-      console.log(`[server] http://localhost:${port}`);
-    } else if (typeof address != "string") {
-      console.log(
-        `[server] http://localhost:${port} (http://${address}:${port})`
-      );
-    } else {
-      console.log(`[server] Production server began on ${address}`);
-    }
-    if (process.env.NODE_ENV == "development") {
-      void (0, import_node2.broadcastDevReady)(build);
-    }
-    console.log(`App is running on *:${port}`);
-  }
-  const server = process.env.HOST ? app.listen(port, process.env.HOST, onListen) : app.listen(port, onListen);
-  process.on("SIGINT", () => {
-    server.close();
-  });
-  process.on("SIGQUIT", () => {
-    server.close();
-  });
-  process.on("SIGTERM", () => {
-    server.close();
-  });
-}
-
 // server.ts
+var import_serverless_http = __toESM(require("serverless-http"));
 var PORT = +(process.env.PORT || 3e3);
 app.all("*", loadAssets);
-startServer(PORT);
+var handler = (0, import_serverless_http.default)(app);
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  handler
+});
